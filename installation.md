@@ -10,12 +10,13 @@
    composer require parceltrap/parceltrap-laravel
    ```
 
-1. Next, install any relevant [ParcelTrap drivers](https://packagist.org/explore?tags=parceltrap%20driver).
+1. Next, install any relevant [ParcelTrap drivers][drivers].
    ```shell
    # Install the Royal Mail driver
    composer require parceltrap/driver-royal-mail
    ```
 
+<a name="initial-configuration"></a>
 ## Initial Configuration
 
 All of the configuration for ParcelTrap is stored in arrays. Each option is documented for each driver, so feel free to look at the [driver documentation][drivers].
