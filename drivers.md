@@ -43,6 +43,7 @@ Alternatively, you can check the [`parceltrap-driver` topic on GitHub][github-dr
 
 [dhl]: https://dhl.com
 [github-drivers]: https://github.com/topics/parceltrap-driver
+[packagist]: https://packagist.org
 [packagist-drivers]: https://packagist.org/explore?tags=parceltrap%20driver
 [repo-dhl]: https://github.com/parceltrap/driver-dhl
 [repo-royal-mail]: https://github.com/parceltrap/driver-royal-mail
