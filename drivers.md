@@ -29,7 +29,7 @@ This is a driver for the [Royal Mail API][royal-mail]. Check out the [repository
 <a name="driver-trackingmore"></a>
 ### TrackingMore
 
-This is a driver for the [TrackingMore API][]. Check out the [repository on GitHub][repo-trackingmore] for more information.
+This is a driver for the [TrackingMore API][trackingmore]. Check out the [repository on GitHub][repo-trackingmore] for more information.
 
 <a name="custom-drivers"></a>
 ## Custom Drivers
