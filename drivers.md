@@ -9,9 +9,9 @@
 
 ParcelTrap provides the following drivers as part of the core collection:
 
-- [DHL](driver-dhl)
-- [Royal Mail](driver-royal-mail)
-- [TrackingMore](driver-trackingmore)
+- [DHL](driver-dhl.md)
+- [Royal Mail](driver-royal-mail.md)
+- [TrackingMore](driver-trackingmore.md)
 
 <a name="custom-drivers"></a>
 ## Custom Drivers
