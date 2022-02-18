@@ -44,4 +44,4 @@ $parcelTrap = ParcelTrap::make($drivers);
 ```
 
 [composer]: https://getcomposer.org
-[drivers]: drivers.md
+[drivers]: drivers
