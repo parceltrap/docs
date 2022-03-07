@@ -1,4 +1,4 @@
-# DHL Driver
+# Royal Mail Driver
 
 [Back to the Core Drivers list](drivers.md#core-drivers)
 
