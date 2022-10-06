@@ -29,5 +29,56 @@ app(\ParcelTrap\ParcelTrap::class)->find(...);
 \ParcelTrap\Facades\ParcelTrap::find(...);
 ```
 
+<a name="usage-examples"></a>
+## Usage Examples
+
+All ParcelTrap drivers will return either an instance of `ParcelTrap\TrackingDetails` or will throw an exception such as `ParacelTrap\Exceptions\ApiLimitReachedException`.
+
+```php
+use ParcelTrap\Facades\ParcelTrap;
+use ParcelTrap\Enums\Status;
+
+$details = ParcelTrap::find('12345');
+
+
+// The TrackingDetails object provides access to standardised data
+
+echo $details->identifier;                               // "12345"
+echo $details->summary:                                  // "Package status is: In Transit"
+echo $details->status;                                   // Enum<Status>
+echo $details->status->description();                    // "In Transit"
+echo $details->estimatedDelivery->format('jS M Y');      // "12th Oct 2022"
+
+
+// The TrackingDetails object also provides access to raw/unstandardised data from the API
+
+$data->events; // array - Recorded events of the parcel from sender to receiver
+$data->raw; // array - Raw payload response from the Tracking API.
+
+
+// The ParcelTrap driver may throw exceptions as needed.
+
+try {
+   $details = ParcelTrap::find('ABCDEFG');
+} catch (\ParcelTrap\Exceptions\ApiLimitReachedException $exception) {
+   echo $exception->getDriver();                         // Driver<YourSelectedDriver>
+   echo $exception->getLimit();                          // 10
+   echo $exception->getPeriod();                         // "minute"
+   echo $exception->getMessage();                        // "FedEx API limit reached (10 calls/minute)"
+} catch (\ParcelTrap\Exceptions\ApiAuthenticationFailedException $exception) {
+   echo $exception->getDriver();                         // Driver<YourSelectedDriver>
+   echo $exception->getMessage();                        // "Failed to authenticate connection with FedEx"
+} catch (\Throwable $throwable) {
+   // something else went wrong
+}
+
+// All ParcelTrap Driver exceptions extend ParcelTrapDriverException so you can catch all:
+try {
+   $details = ParcelTrap::find('ABCDEFG');
+} catch (\ParcelTrap\Exceptions\ParcelTrapDriverException $exception) {
+   echo $exception->getDriver();                         // Driver<YourSelectedDriver>
+}
+```
+
 [composer]: https://getcomposer.org
 [drivers]: drivers
