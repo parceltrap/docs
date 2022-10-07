@@ -10,6 +10,7 @@
 ParcelTrap provides the following drivers as part of the core collection:
 
 - [DHL](driver-dhl.md)
+- [PKGE](driver-pkge.md)
 - [Royal Mail](driver-royal-mail.md)
 - [TrackingMore](driver-trackingmore.md)
 
