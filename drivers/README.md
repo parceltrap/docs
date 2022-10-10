@@ -40,6 +40,8 @@ Inside the `Skeleton` class, there are multiple methods, here is an overview of 
 
 Once the driver has been created, it's important to [add tests](https://github.com/parceltrap/driver-skeleton/blob/main/tests/Feature/SkeletonTest.php), these can be mocked via a `MockHandler`, but should reflect the result of the actual API.
 
+> **Note:** All custom exceptions should implement the `ParcelTrap\Contracts\ParcelTrapException` interface.
+
 The driver can then be published to Packagist, make sure to use the [`parceltrap-driver` keyword](https://github.com/parceltrap/driver-skeleton/blob/main/composer.json#L6-L8) so that your driver can be discovered more easily.
 
 [github-drivers]: https://github.com/topics/parceltrap-driver
