@@ -14,7 +14,8 @@
 <a name="initial-configuration"></a>
 ## Initial Configuration
 
-All the configuration for ParcelTrap is stored in arrays. Each option is documented for each driver, so feel free to look at the [driver documentation][drivers].
+All the configuration for ParcelTrap is stored in arrays. Each option is documented for each driver, so feel free to
+look at the [driver documentation][drivers].
 
 The ParcelTrap manager is bound to the Laravel container and can be retrieved as follows:
 
@@ -32,7 +33,8 @@ app(\ParcelTrap\ParcelTrap::class)->find(...);
 <a name="usage-examples"></a>
 ## Usage Examples
 
-All ParcelTrap drivers will return either an instance of `ParcelTrap\TrackingDetails` or will throw an exception such as `ParacelTrap\Exceptions\ApiLimitReachedException`.
+All ParcelTrap drivers will return either an instance of `ParcelTrap\TrackingDetails` or will throw an exception such
+as `ParacelTrap\Exceptions\ApiLimitReachedException`.
 
 ```php
 use ParcelTrap\Facades\ParcelTrap;
@@ -71,8 +73,25 @@ try {
 } catch (\Throwable $throwable) {
    // something else went wrong
 }
+```
 
-// All ParcelTrap Driver exceptions extend ParcelTrapDriverException so you can catch all:
+<a name="exceptions"></a>
+## Exceptions
+
+All ParcelTrap exceptions implement the `ParcelTrap\Contracts\ParcelTrapException` interface, so you can catch all of
+them with:
+
+```php
+try {
+   $details = ParcelTrap::find('ABCDEFG');
+} catch (\ParcelTrap\Contracts\ParcelTrapException $exception) {
+}
+```
+
+All ParcelTrap Driver exceptions extend the `ParcelTrap\Exceptions\ParcelTrapDriverException` class, so you can catch
+all of them with:
+
+```php
 try {
    $details = ParcelTrap::find('ABCDEFG');
 } catch (\ParcelTrap\Exceptions\ParcelTrapDriverException $exception) {
