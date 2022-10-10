@@ -61,12 +61,12 @@ $data->raw; // array - Raw payload response from the Tracking API.
 try {
    $details = ParcelTrap::find('ABCDEFG');
 } catch (\ParcelTrap\Exceptions\ApiLimitReachedException $exception) {
-   echo $exception->getDriver();                         // Driver<YourSelectedDriver>
-   echo $exception->getLimit();                          // 10
-   echo $exception->getPeriod();                         // "minute"
+   echo $exception->driver;                              // Driver<YourSelectedDriver>
+   echo $exception->limit;                               // 10
+   echo $exception->period;                              // "minute"
    echo $exception->getMessage();                        // "FedEx API limit reached (10 calls/minute)"
 } catch (\ParcelTrap\Exceptions\ApiAuthenticationFailedException $exception) {
-   echo $exception->getDriver();                         // Driver<YourSelectedDriver>
+   echo $exception->driver;                              // Driver<YourSelectedDriver>
    echo $exception->getMessage();                        // "Failed to authenticate connection with FedEx"
 } catch (\Throwable $throwable) {
    // something else went wrong
@@ -76,7 +76,7 @@ try {
 try {
    $details = ParcelTrap::find('ABCDEFG');
 } catch (\ParcelTrap\Exceptions\ParcelTrapDriverException $exception) {
-   echo $exception->getDriver();                         // Driver<YourSelectedDriver>
+   echo $exception->driver;                         // Driver<YourSelectedDriver>
 }
 ```
 
