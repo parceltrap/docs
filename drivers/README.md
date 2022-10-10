@@ -9,10 +9,12 @@
 
 ParcelTrap provides the following drivers as part of the core collection:
 
+- [AusPost](driver-auspost.md)
 - [DHL](driver-dhl.md)
 - [PKGE](driver-pkge.md)
 - [Royal Mail](driver-royal-mail.md)
 - [TrackingMore](driver-trackingmore.md)
+- [USPS](driver-usps.md)
 
 <a name="custom-drivers"></a>
 ## Custom Drivers
