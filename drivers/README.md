@@ -3,8 +3,6 @@
 - [Core Drivers](#core-drivers)
 - [Custom Drivers](#custom-drivers)
 
-<a name="core-drivers"></a>
-
 ## Core Drivers
 
 ParcelTrap provides the following drivers as part of the core collection:
@@ -15,8 +13,6 @@ ParcelTrap provides the following drivers as part of the core collection:
 - [Royal Mail](driver-royal-mail.md)
 - [TrackingMore](driver-trackingmore.md)
 - [USPS](driver-usps.md)
-
-<a name="custom-drivers"></a>
 
 ## Custom Drivers
 
