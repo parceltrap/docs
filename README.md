@@ -12,6 +12,6 @@ actions:
 
 <div align="center">
 
-Want more tracking capabilities? Try [ProductTrap](https://producttrap.voke.dev)!
+Want more tracking capabilities? Try [ProductTrap](https://producttrap.voke.dev)
 
 </div>
