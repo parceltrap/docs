@@ -1,4 +1,9 @@
 :root {
-    --c-brand: #0284C7;
+    --c-brand: #0284c7;
     --c-brand-light: #0ea5e9;
+}
+
+html.dark {
+    --c-brand: #0ea5e9;
+    --c-brand-light: #0284c7;
 }
