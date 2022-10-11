@@ -11,8 +11,8 @@ export default defineUserConfig({
         contributors: false,
         navbar: [
             {
-                text: 'Installation',
-                link: '/'
+                text: 'Getting Started',
+                link: '/getting-started'
             },
             {
                 text: 'Drivers',

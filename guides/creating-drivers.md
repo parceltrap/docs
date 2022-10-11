@@ -1,4 +1,4 @@
-## Creating Drivers
+# Creating Drivers
 
 To get started creating a driver, first clone the [`driver-skeleton`](https://github.com/parceltrap/driver-skeleton) repository.
 

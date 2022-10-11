@@ -1,4 +1,4 @@
-## Exceptions
+# Handling Exceptions
 
 All ParcelTrap exceptions implement the `ParcelTrap\Contracts\ParcelTrapException` interface, so you can catch all of
 them with:
