@@ -4,6 +4,7 @@ export default defineUserConfig({
     lang: 'en-GB',
     title: 'ParcelTrap',
     description: 'A driver-based parcel tracking library for PHP.',
+    base: '/parceltrap',
     markdown: {
         code: {
             lineNumbers: false
