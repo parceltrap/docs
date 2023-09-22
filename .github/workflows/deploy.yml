@@ -1,0 +1,33 @@
+name: Docs
+
+on:
+  push:
+    branches:
+      - main
+
+jobs:
+  deploy:
+    runs-on: ubuntu-latest
+
+    name: Deploy
+
+    env:
+      REPOSITORY: '${{ github.repository }}'
+      PATH: ''
+      URI_PATH: 'parceltrap'
+
+    steps:
+
+      - name: Deploy
+        uses: benc-uk/workflow-dispatch@v1
+        with:
+          workflow: Docs
+          repo: owenvoke/docs.voke.dev
+          token: '${{ secrets.PERSONAL_TOKEN }}'
+          inputs: |
+            {
+                "repository": "${{ env.REPOSITORY }}",
+                "path": "${{ env.PATH }}",
+                "uri-path": "${{ env.URI_PATH }}",
+                "secret-token": "${{ secrets.DOCS_TOKEN }}"
+            }
