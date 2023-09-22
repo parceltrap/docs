@@ -23,7 +23,7 @@ jobs:
         with:
           workflow: Docs
           repo: owenvoke/docs.voke.dev
-          token: '${{ secrets.PERSONAL_TOKEN }}'
+          token: '${{ secrets.DOCS_AUTH_TOKEN }}'
           inputs: |
             {
                 "repository": "${{ env.REPOSITORY }}",
