@@ -12,7 +12,7 @@ permalink: /getting-started
    composer require parceltrap/parceltrap
    ```
 
-1. Next, install any relevant [ParcelTrap drivers](./drivers).
+1. Next, install any relevant [ParcelTrap drivers](/drivers).
    ```shell
    # Install the Royal Mail driver
    composer require parceltrap/driver-royal-mail
@@ -21,7 +21,7 @@ permalink: /getting-started
 ## Initial Configuration
 
 All the configuration for ParcelTrap is stored in arrays. Each option is documented for each driver, so feel free to
-look at the [driver documentation](./drivers).
+look at the [driver documentation](/drivers).
 
 The ParcelTrap manager is bound to the Laravel container and can be retrieved as follows:
 
@@ -65,7 +65,7 @@ $data->events; // array - Recorded events of the parcel from sender to receiver
 $data->raw; // array - Raw payload response from the Tracking API
 ```
 
-The ParcelTrap driver may throw exceptions as needed. See the [Handling Exceptions](./guides/handling-exceptions) guide
+The ParcelTrap driver may throw exceptions as needed. See the [Handling Exceptions](/guides/handling-exceptions) guide
 for more information.
 
 ```php
