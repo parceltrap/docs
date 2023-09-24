@@ -13,7 +13,7 @@ jobs:
 
     env:
       REPOSITORY: '${{ github.repository }}'
-      PATH: ''
+      PATH: '.'
       URI_PATH: 'parceltrap'
 
     steps:
