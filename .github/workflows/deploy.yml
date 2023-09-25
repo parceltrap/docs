@@ -28,6 +28,6 @@ jobs:
                 "repository": "${{ env.REPOSITORY }}",
                 "path": "${{ env.PATH }}",
                 "uri-path": "${{ env.URI_PATH }}",
-                "command": "vuepress build --base '/parceltrap/' --outDir",
+                "command": "vitepress build --base '/parceltrap/' --outDir",
                 "secret-token": "${{ secrets.DOCS_TOKEN }}"
             }
