@@ -5,9 +5,9 @@
 This is a driver for the [Royal Mail API](https://royalmail.com). Check out
 the [repository on GitHub](https://github.com/parceltrap/driver-royal-mail) for more information.
 
-* [Install](driver-royal-mail.md#installation)
-* [Configuration](driver-royal-mail.md#configuration)
-* [Usage](driver-royal-mail.md#usage)
+- [Install](driver-royal-mail.md#installation)
+- [Configuration](driver-royal-mail.md#configuration)
+- [Usage](driver-royal-mail.md#usage)
 
 ## Installation
 

@@ -1,9 +1,9 @@
 ---
 layout: home
 hero:
-    name: ParcelTrap
-    tagline: A driver-based parcel tracking library for PHP.
-    actions:
+  name: ParcelTrap
+  tagline: A driver-based parcel tracking library for PHP.
+  actions:
     - text: Get Started
       link: /getting-started
       theme: brand

@@ -4,7 +4,7 @@ To get started creating a driver, first clone the [`driver-skeleton`](https://gi
 
 Once this has been cloned, update any relevant details such as the package name, description, and namespace.
 
-You can then rename the [`Skeleton`](https://github.com/parceltrap/driver-skeleton/blob/main/src/Skeleton.php) and  [`SkeletonServiceProvider`](https://github.com/parceltrap/driver-skeleton/blob/main/src/SkeletonServiceProvider.php) classes to the name of your driver.
+You can then rename the [`Skeleton`](https://github.com/parceltrap/driver-skeleton/blob/main/src/Skeleton.php) and [`SkeletonServiceProvider`](https://github.com/parceltrap/driver-skeleton/blob/main/src/SkeletonServiceProvider.php) classes to the name of your driver.
 
 Inside the `Skeleton` class, there are multiple methods, here is an overview of what each does:
 

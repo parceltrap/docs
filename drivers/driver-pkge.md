@@ -4,9 +4,9 @@
 
 This is a driver for the [PKGE API](https://pkge.net). Check out the [repository on GitHub](https://github.com/parceltrap/driver-pkge) for more information.
 
-* [Install](driver-pkge.md#installation)
-* [Configuration](driver-pkge.md#configuration)
-* [Usage](driver-pkge.md#usage)
+- [Install](driver-pkge.md#installation)
+- [Configuration](driver-pkge.md#configuration)
+- [Usage](driver-pkge.md#usage)
 
 ## Installation
 

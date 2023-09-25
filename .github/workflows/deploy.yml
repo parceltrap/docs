@@ -17,7 +17,6 @@ jobs:
       URI_PATH: 'parceltrap'
 
     steps:
-
       - name: Deploy
         uses: benc-uk/workflow-dispatch@v1
         with:

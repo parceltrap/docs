@@ -5,9 +5,9 @@
 This is a driver for the [Australian Post API](https://auspost.com.au). Check out
 the [repository on GitHub](https://github.com/parceltrap/driver-auspost) for more information.
 
-* [Install](driver-auspost.md#installation)
-* [Configuration](driver-auspost.md#configuration)
-* [Usage](driver-auspost.md#usage)
+- [Install](driver-auspost.md#installation)
+- [Configuration](driver-auspost.md#configuration)
+- [Usage](driver-auspost.md#usage)
 
 ## Installation
 

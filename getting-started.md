@@ -7,6 +7,7 @@ title: Getting Started
 ## Installation
 
 1. First, you'll need to install ParcelTrap via [Composer](https://getcomposer.org).
+
    ```shell
    composer require parceltrap/parceltrap
    ```

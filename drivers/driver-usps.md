@@ -5,9 +5,9 @@
 This is a driver for the [USPS API](https://usps.com). Check out
 the [repository on GitHub](https://github.com/parceltrap/driver-usps) for more information.
 
-* [Installation](driver-usps.md#installation)
-* [Configuration](driver-usps.md#configuration)
-* [Usage](driver-usps.md#usage)
+- [Installation](driver-usps.md#installation)
+- [Configuration](driver-usps.md#configuration)
+- [Usage](driver-usps.md#usage)
 
 ## Installation
 

@@ -5,9 +5,9 @@
 This is a driver for the [TrackingMore API](https://trackingmore.com). Check out
 the [repository on GitHub](https://github.com/parceltrap/driver-trackingmore) for more information.
 
-* [Installation](driver-trackingmore.md#installation)
-* [Configuration](driver-trackingmore.md#configuration)
-* [Usage](driver-trackingmore.md#usage)
+- [Installation](driver-trackingmore.md#installation)
+- [Configuration](driver-trackingmore.md#configuration)
+- [Usage](driver-trackingmore.md#usage)
 
 ## Installation
 

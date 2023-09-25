@@ -5,9 +5,9 @@
 This is a driver for the [DHL API](https://dhl.com). Check out
 the [repository on GitHub](https://github.com/parceltrap/driver-dhl) for more information.
 
-* [Install](driver-dhl.md#installation)
-* [Configuration](driver-dhl.md#configuration)
-* [Usage](driver-dhl.md#usage)
+- [Install](driver-dhl.md#installation)
+- [Configuration](driver-dhl.md#configuration)
+- [Usage](driver-dhl.md#usage)
 
 ## Installation
 

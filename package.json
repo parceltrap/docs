@@ -1,11 +1,13 @@
 {
-    "private": true,
-    "type": "module",
-    "scripts": {
-        "dev": "vitepress dev",
-        "prod": "vitepress build"
-    },
-    "devDependencies": {
-        "vitepress": "^1.0.0-rc.20"
-    }
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "lint": "prettier --write .",
+    "dev": "vitepress dev",
+    "prod": "vitepress build"
+  },
+  "devDependencies": {
+    "prettier": "^3.0.3",
+    "vitepress": "^1.0.0-rc.20"
+  }
 }
