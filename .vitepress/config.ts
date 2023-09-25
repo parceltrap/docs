@@ -1,32 +1,32 @@
-import {defaultTheme, defineUserConfig} from 'vuepress'
+import {defineConfig} from 'vitepress';
 
-export default defineUserConfig({
+export default defineConfig({
     lang: 'en-GB',
     title: 'ParcelTrap',
     description: 'A driver-based parcel tracking library for PHP.',
-    base: '/parceltrap/',
-    markdown: {
-        code: {
-            lineNumbers: false
-        }
-    },
-    theme: defaultTheme({
-        repo: 'parceltrap/parceltrap',
-        docsRepo: 'parceltrap/docs',
-        lastUpdated: false,
-        contributors: false,
-        navbar: [
+    lastUpdated: false,
+    cleanUrls: true,
+
+    // Theme related configurations.
+    themeConfig: {
+        socialLinks: [
+            {icon: 'github', link: 'https://github.com/parceltrap/parceltrap'}
+        ],
+        search: {
+            provider: 'local'
+        },
+        nav: [
             {
                 text: 'Getting Started',
                 link: '/getting-started'
             },
             {
                 text: 'Drivers',
-                link: '/drivers'
+                link: '/drivers/'
             },
             {
                 text: 'Guides',
-                children: [
+                items: [
                     {
                         text: 'Creating a Driver',
                         link: '/guides/creating-drivers'
@@ -38,6 +38,6 @@ export default defineUserConfig({
                 ]
             }
         ],
-    }),
-    plugins: [],
-})
+        sidebar: {}
+    }
+});

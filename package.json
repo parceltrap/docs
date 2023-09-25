@@ -1,11 +1,11 @@
 {
     "private": true,
+    "type": "module",
     "scripts": {
-        "dev": "vuepress dev",
-        "prod": "vuepress build"
+        "dev": "vitepress dev",
+        "prod": "vitepress build"
     },
     "devDependencies": {
-        "@vuepress/plugin-docsearch": "^2.0.0-beta.51",
-        "vuepress": "^2.0.0-beta.51"
+        "vitepress": "^1.0.0-rc.20"
     }
 }
