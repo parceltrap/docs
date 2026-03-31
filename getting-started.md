@@ -34,6 +34,13 @@ app(\ParcelTrap\ParcelTrap::class)->find(...);
 
 // Resolve via Facade
 \ParcelTrap\Facades\ParcelTrap::find(...);
+\ParcelTrap\Facades\ParcelTrap::driver('null')->find(...);
+
+// Resolve via contextual attribute
+public function __construct(
+    #[\ParcelTrap\Attributes\Trap('null')]
+    private private readonly \ParcelTrap\Contracts\Driver $parcelTrap,
+) {}
 ```
 
 ## Usage Examples
