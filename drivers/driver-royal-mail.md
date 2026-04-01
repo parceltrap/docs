@@ -25,7 +25,6 @@ In your `config/parceltrap.php` configuration file, add the following to the `dr
 'royal_mail' => [
     'client_id' => env('PARCELTRAP_ROYAL_MAIL_CLIENT_ID'),
     'client_secret' => env('PARCELTRAP_ROYAL_MAIL_CLIENT_SECRET'),
-    'accept_terms' => env('PARCELTRAP_ROYAL_MAIL_ACCEPT_TERMS', true),
 ],
 ```
 
