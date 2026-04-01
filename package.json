@@ -7,7 +7,7 @@
     "prod": "vitepress build"
   },
   "devDependencies": {
-    "prettier": "^3.0.3",
-    "vitepress": "^1.0.0-rc.20"
+    "prettier": "^3.8.1",
+    "vitepress": "^1.6.4"
   }
 }
