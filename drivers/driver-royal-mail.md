@@ -29,7 +29,7 @@ In your `config/parceltrap.php` configuration file, add the following to the `dr
 ```
 
 You can get these details by registering for the [Royal Mail API](https://developer.royalmail.net/application). To find
-out more, visit the [Tracking v2 API reference](https://developer.royalmail.net/node/1885385). This
+out more, visit the [Tracking v2 API reference](https://developer.royalmail.net/product/175625). This
 documentation page also shows the raw Royal Mail-specific data that can be found in the returned `TrackingDetails` DTO.
 
 ## Usage
