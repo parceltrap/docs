@@ -12,6 +12,11 @@ title: Getting Started
    composer require parceltrap/parceltrap
    ```
 
+1. Publish the ParcelTrap configuration file.
+   ```shell
+   php artisan vendor:publish --provider="ParcelTrap\ParcelTrapServiceProvider"
+   ```
+
 1. Next, install any relevant [ParcelTrap drivers](/drivers/).
    ```shell
    # Install the Royal Mail driver
